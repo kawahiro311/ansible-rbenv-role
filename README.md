@@ -1,5 +1,7 @@
 # ansible-rbenv-role
 
+[![Build Status](https://travis-ci.org/kawahiro311/ansible-rbenv-role.svg?branch=master)](https://travis-ci.org/kawahiro311/ansible-rbenv-role)
+
 Installs rbenv&ruby
 
 ## Role Variables
