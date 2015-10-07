@@ -1,6 +1,6 @@
 # ansible-rbenv-role
 
-Install rbenv&ruby
+Installs rbenv&ruby
 
 ## Role Variables
 
