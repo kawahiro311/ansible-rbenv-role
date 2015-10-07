@@ -15,7 +15,7 @@
   lineinfile: dest=~/.bash_profile regexp="rbenv" insertafter=EOF line="source ~/.bash.d/rbenv.bash" create=yes
 
 - name: source .bash_profile
-  shell: . ~/.bash_profile
+  shell: bash ~/.bash_profile
 
 - name: check ruby is already installed
   shell: cd; bash -lc "rbenv versions | grep {{ ruby_version }} | tr '*' ' ' | sed -e 's/\s\+//' | cut -f1 -d' '"
