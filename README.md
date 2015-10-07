@@ -4,7 +4,7 @@ Install rbenv&ruby
 
 ## Role Variables
 
-(see `vars/main.yml` ):
+(see `defaults/main.yml` ):
 
 ```
 ---
