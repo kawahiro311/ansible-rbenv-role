@@ -29,6 +29,3 @@
 
 - name: rbenv global
   shell: cd; bash -lc "rbenv global {{ ruby_version }} && rbenv rehash"
-
-- name: install bundler gem
-  gem: name=bundler state=present executable=.rbenv/shims/gem user_install=False
